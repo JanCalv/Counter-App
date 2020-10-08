@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+.counter-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#count {
+    padding: 10px;
+    font-size: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 20px;
+}
+
